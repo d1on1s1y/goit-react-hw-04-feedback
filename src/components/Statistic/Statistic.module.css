@@ -1,27 +1,25 @@
-.listTeam {
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 300px;
-  padding: 10px;
-  margin: auto;
-  background-color: lightgrey;
-  list-style: none;
-}
-
-.itemsStat {
-  border-bottom: 1px solid white;
-}
-
 .titleStat {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  font-size: 30px;
+  color: #c05805;
+  border-bottom: 2px solid #db9501;
 }
 
 .notiStat {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  color: black;
+  color: #862828;
+}
+
+.listTeam {
+  list-style: none;
+  border: 2px solid #862828;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #db9501;
+}
+
+.itemStat {
+  border: 1px solid #6e6702;
+  margin: 2px;
+  border-radius: 3px;
+  padding: 2px;
+  color: #2e2300;
 }
