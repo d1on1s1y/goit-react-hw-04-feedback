@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 import s from './Feedback.module.css';
 import { useState } from 'react';
-import Statistics from '../Statistic/Statistic';
+import Statistics from '../Statistics/Statistics';
 
 export default function Feedback() {
   const [{ good, neutral, bad }, setState] = useState({
